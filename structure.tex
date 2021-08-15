@@ -39,6 +39,8 @@ BoldItalicFont = Erewhon-BoldItalic,
 SmallCapsFeatures = {Letters = SmallCaps}
 ]{Erewhon-Regular}
 
+\usepackage{verbatim}
+
 \usepackage{color} % Required for custom colors
 \definecolor{slateblue}{rgb}{0.17,0.22,0.34}
 
@@ -51,6 +53,11 @@ SmallCapsFeatures = {Letters = SmallCaps}
 \renewcommand{\footrulewidth}{0pt} % Disable the default footer rule
 
 \setlength\parindent{0pt} % Stop paragraph indentation
+
+% images
+\usepackage{graphicx}
+\graphicspath{ {./img/} }
+
 
 % Non-indenting itemize
 \newenvironment{itemize-noindent}
